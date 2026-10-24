@@ -63,7 +63,7 @@ function facilityImageUploadPlugin(): Plugin {
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss(), facilityImageUploadPlugin()],
-    base: '/thred-vision-website/',
+    base: '/',
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
