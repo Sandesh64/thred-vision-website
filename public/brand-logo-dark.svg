@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="70 95 1010 160" width="1010" height="160" fill="none">
+  <!-- Official Thred Vision Brand Logo (Dark variant for light backgrounds) -->
+  <defs>
+    <!-- Clip paths for yarn ball windings -->
+    <clipPath id="yarnBallClipD_dark">
+      <circle cx="495" cy="207" r="33.5" />
+    </clipPath>
+    <clipPath id="yarnBallClipO_dark">
+      <circle cx="930" cy="207" r="33.5" />
+    </clipPath>
+  </defs>
+
+  <!-- ================= 1. RED THREAD PATHWAYS ================= -->
+  <!-- Top horizontal thread line: extends from left, through needle eye, across 'hre', to right side of 'd' -->
+  <path
+    d="M 95 130 L 530 130"
+    stroke="#E51B24"
+    stroke-width="5.5"
+    stroke-linecap="square"
+  />
+
+  <!-- Vertical thread stem of 'd': drops straight down from top thread line -->
+  <path
+    d="M 527.5 130 L 527.5 240"
+    stroke="#E51B24"
+    stroke-width="5.5"
+    stroke-linecap="square"
+  />
+
+  <!-- Bottom baseline thread line: runs from 'd' under 'Vision' into yarn ball 'o' -->
+  <path
+    d="M 527.5 240 L 920 240"
+    stroke="#E51B24"
+    stroke-width="5.5"
+    stroke-linecap="square"
+  />
+
+  <!-- ================= 2. SEWING NEEDLE ('T' STEM) ================= -->
+  <!-- Top Cap of Needle -->
+  <path
+    d="M 158 116 C 158 108 172 108 172 116 L 172 122 L 158 122 Z"
+    fill="#103C30"
+  />
+  <!-- Needle Body with Eye and Pointed Tip -->
+  <path
+    d="M 158 122 L 158 144 C 158 147 160 150 160.5 154 L 160.5 215 L 164.5 245 C 164.8 247.5 165.2 247.5 165.5 245 L 169.5 215 L 169.5 154 C 170 150 172 147 172 144 L 172 122 Z"
+    fill="#103C30"
+  />
+  <!-- Needle Eye Opening (through which red thread passes) -->
+  <rect x="163" y="121" width="4" height="18" rx="2" fill="#F3F0E8" />
+
+  <!-- ================= 3. DARK LETTERFORMS ('h', 'r', 'e') ================= -->
+  <!-- 'h' -->
+  <!-- Ascender stem -->
+  <line x1="216" y1="130" x2="216" y2="240" stroke="#103C30" stroke-width="5.5" stroke-linecap="square" />
+  <!-- Arch & right leg -->
+  <path
+    d="M 216 195 C 220 178 238 174 256 174 C 274 174 286 182 286 200 L 286 240"
+    stroke="#103C30"
+    stroke-width="5.5"
+    stroke-linecap="square"
+    fill="none"
+  />
+
+  <!-- 'r' -->
+  <!-- Stem -->
+  <line x1="316" y1="174" x2="316" y2="240" stroke="#103C30" stroke-width="5.5" stroke-linecap="square" />
+  <!-- Hook -->
+  <path
+    d="M 316 192 C 320 180 330 174 348 174 C 354 174 360 176 364 178"
+    stroke="#103C30"
+    stroke-width="5.5"
+    stroke-linecap="round"
+    fill="none"
+  />
+
+  <!-- 'e' -->
+  <path
+    d="M 436 207 L 380 207 C 380 186 394 174 412 174 C 430 174 442 186 442 204 C 442 226 428 240 408 240 C 390 240 378 228 378 214"
+    stroke="#103C30"
+    stroke-width="5.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+
+  <!-- ================= 4. 'd' RED YARN BALL (Bowl of 'd') ================= -->
+  <g id="yarn-d">
+    <!-- Outer Yarn Ring -->
+    <circle cx="495" cy="207" r="33" stroke="#E51B24" stroke-width="5.5" fill="none" />
+    <!-- Inner Concentric & Curved Yarn Winding Strands -->
+    <g clip-path="url(#yarnBallClipD_dark)">
+      <circle cx="495" cy="207" r="26" stroke="#E51B24" stroke-width="2.5" fill="none" />
+      <!-- Central Diagonal Winding Strand -->
+      <path
+        d="M 468 180 C 484 196 506 218 522 234"
+        stroke="#E51B24"
+        stroke-width="3"
+        stroke-linecap="round"
+      />
+      <!-- Upper Arcs -->
+      <path
+        d="M 478 173 C 496 182 512 200 520 216"
+        stroke="#E51B24"
+        stroke-width="2.6"
+        stroke-linecap="round"
+      />
+      <path
+        d="M 492 171 C 506 178 518 190 524 202"
+        stroke="#E51B24"
+        stroke-width="2.2"
+        stroke-linecap="round"
+      />
+      <!-- Lower Arcs -->
+      <path
+        d="M 467 200 C 473 218 488 234 508 240"
+        stroke="#E51B24"
+        stroke-width="2.6"
+        stroke-linecap="round"
+      />
+      <path
+        d="M 467 212 C 475 224 486 233 498 238"
+        stroke="#E51B24"
+        stroke-width="2.2"
+        stroke-linecap="round"
+      />
+    </g>
+  </g>
+
+  <!-- ================= 5. 'Vision' WORDMARK ================= -->
+  <!-- 'V' -->
+  <path
+    d="M 596 130 L 658 240 L 720 130"
+    stroke="#103C30"
+    stroke-width="5.5"
+    stroke-linecap="square"
+    stroke-linejoin="miter"
+    fill="none"
+  />
+
+  <!-- 'i' (first) -->
+  <line x1="752" y1="174" x2="752" y2="240" stroke="#103C30" stroke-width="5.5" stroke-linecap="square" />
+  <circle cx="752" cy="148" r="4.2" fill="#103C30" />
+
+  <!-- 's' -->
+  <path
+    d="M 816 190 C 812 179 802 174 790 174 C 777 174 769 181 769 190 C 769 202 779 208 794 213 C 810 218 820 225 820 236 C 820 245 808 240 794 240 C 779 240 770 232 768 224"
+    stroke="#103C30"
+    stroke-width="5.5"
+    stroke-linecap="round"
+    fill="none"
+  />
+
+  <!-- 'i' (second) -->
+  <line x1="846" y1="174" x2="846" y2="240" stroke="#103C30" stroke-width="5.5" stroke-linecap="square" />
+  <circle cx="846" cy="148" r="4.2" fill="#103C30" />
+
+  <!-- ================= 6. 'o' RED YARN BALL ================= -->
+  <g id="yarn-o">
+    <!-- Outer Yarn Ring -->
+    <circle cx="930" cy="207" r="33" stroke="#E51B24" stroke-width="5.5" fill="none" />
+    <!-- Inner Concentric & Curved Yarn Winding Strands -->
+    <g clip-path="url(#yarnBallClipO_dark)">
+      <circle cx="930" cy="207" r="26" stroke="#E51B24" stroke-width="2.5" fill="none" />
+      <!-- Central Diagonal Winding Strand -->
+      <path
+        d="M 903 180 C 919 196 941 218 957 234"
+        stroke="#E51B24"
+        stroke-width="3"
+        stroke-linecap="round"
+      />
+      <!-- Upper Arcs -->
+      <path
+        d="M 913 173 C 931 182 947 200 955 216"
+        stroke="#E51B24"
+        stroke-width="2.6"
+        stroke-linecap="round"
+      />
+      <path
+        d="M 927 171 C 941 178 953 190 959 202"
+        stroke="#E51B24"
+        stroke-width="2.2"
+        stroke-linecap="round"
+      />
+      <!-- Lower Arcs -->
+      <path
+        d="M 902 200 C 908 218 923 234 943 240"
+        stroke="#E51B24"
+        stroke-width="2.6"
+        stroke-linecap="round"
+      />
+      <path
+        d="M 902 212 C 910 224 921 233 933 238"
+        stroke="#E51B24"
+        stroke-width="2.2"
+        stroke-linecap="round"
+      />
+    </g>
+  </g>
+
+  <!-- ================= 7. 'n' ================= -->
+  <line x1="992" y1="174" x2="992" y2="240" stroke="#103C30" stroke-width="5.5" stroke-linecap="square" />
+  <path
+    d="M 992 195 C 996 178 1014 174 1032 174 C 1050 174 1062 182 1062 200 L 1062 240"
+    stroke="#103C30"
+    stroke-width="5.5"
+    stroke-linecap="square"
+    fill="none"
+  />
+</svg>

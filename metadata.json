@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix THRED VISION — Garment Manufacturing",
+  "description": "Ready-made garment manufacturer based in Ganjimutt, Karnataka, India. Crafted with precision, built for scale.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="150 70 700 860" width="700" height="860" fill="none">
+  <!-- Official THRED VISION Iconic Needle & Thread Monogram (Light variant / Dark background) -->
+  <!-- Red Thread Ribbon -->
+  <path
+    d="M 190 214 L 820 95 L 452 900 L 462 876 L 742 155 L 190 238 Z"
+    fill="#E50914"
+  />
+  <!-- Needle (White for dark backgrounds) with Eye Hole cutout -->
+  <path
+    fill-rule="evenodd"
+    d="M 425.5 120 C 425.5 105 437 94 452 94 C 467 94 478.5 105 478.5 120 L 478.5 205 L 452 885 L 425.5 205 Z M 438 134 C 438 126 444 120 452 120 C 460 120 466 126 466 134 L 466 180 C 466 188 460 194 452 194 C 444 194 438 188 438 180 Z"
+    fill="#FFFFFF"
+  />
+</svg>

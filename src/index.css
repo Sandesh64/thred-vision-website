@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-forest: #103C30;
+    --color-dark-green: #092820;
+    --color-ivory: #F4F0E6;
+    --color-sage: #B6C6B8;
+    --color-charcoal: #202622;
+    --color-white: #FFFFFF;
+    --color-champagne: #C8A875;
+    --color-thread-red: #E53935;
+  }
+
+  body {
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #202622;
+    background-color: #F4F0E6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    letter-spacing: -0.025em;
+  }
+}
+
+/* Textile Twill & Weave Textures */
+.bg-twill-pattern {
+  background-size: 8px 8px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(182, 198, 184, 0.08) 0,
+    rgba(182, 198, 184, 0.08) 1px,
+    transparent 0,
+    transparent 50%
+  );
+}
+
+.bg-linen-weave {
+  background-size: 16px 16px;
+  background-image: 
+    linear-gradient(to right, rgba(32, 38, 34, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(32, 38, 34, 0.04) 1px, transparent 1px);
+}
+
+.bg-dark-linen-weave {
+  background-size: 20px 20px;
+  background-image: 
+    linear-gradient(to right, rgba(182, 198, 184, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(182, 198, 184, 0.06) 1px, transparent 1px);
+}
+
+/* Editorial Champagne Borders & Glows */
+.border-champagne-subtle {
+  border-color: rgba(200, 168, 117, 0.35);
+}
+
+.text-champagne {
+  color: #C8A875;
+}
+
+.bg-champagne {
+  background-color: #C8A875;
+}
+
+/* Smooth custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #092820;
+}
+::-webkit-scrollbar-thumb {
+  background: #103C30;
+  border: 1px solid rgba(200, 168, 117, 0.25);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C8A875;
+}
