@@ -313,7 +313,7 @@ async function generateCompanyProfilePDF() {
     font: courierBold,
     color: cGold,
   });
-  page1.drawText('MANAGEMENT: SUBHASH N \n& SANDESH N (MANAGING DIRECTORS) · DINESH CHANDRA (GM)', {
+  page1.drawText('MANAGEMENT: SUBHASH N & SANDESH N (MANAGING DIRECTORS) · DINESH CHANDRA (GM)', {
     x: 75,
     y: 137,
     size: 8,
@@ -1104,7 +1104,7 @@ async function generateCompanyProfilePDF() {
     font: courierBold,
     color: cGold,
   });
-  page23.drawText('MANAGING DIRECTORS: Subhash N & Sandesh N    GENERAL MANAGER: Dinesh Chandra', {
+  page23.drawText('MANAGING DIRECTORS: Sandesh N    GENERAL MANAGER: Dinesh Chandra', {
     x: 50,
     y: 95,
     size: 9,
