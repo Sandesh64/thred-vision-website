@@ -1104,7 +1104,7 @@ async function generateCompanyProfilePDF() {
     font: courierBold,
     color: cGold,
   });
-  page23.drawText('MANAGING DIRECTORS: Sandesh N    GENERAL MANAGER: Dinesh Chandra', {
+  page23.drawText('MANAGING DIRECTORS: Subhash N & Sandesh N    GENERAL MANAGER: Dinesh Chandra', {
     x: 50,
     y: 95,
     size: 9,
