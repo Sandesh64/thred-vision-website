@@ -708,13 +708,20 @@ Inquiry submitted via THRED VISION Web Portal (Ganjimutt, Karnataka Facility)`;
   </span>
 
   <div className="mt-1 font-mono text-xs sm:text-sm">
-    <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-8">
+    <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6">
       <a
         href="tel:+918105334689"
-        className="inline-flex items-center text-[#C8A875] hover:text-[#F4F0E6] transition-colors py-1 min-h-[44px] sm:min-h-0"
+        className="inline-flex items-center text-[#F4F0E6]/90 hover:text-[#C8A875] transition-colors py-1 min-h-[44px] sm:min-h-0"
       >
         +91 8105334689
       </a>
+
+      <span
+        className="hidden sm:inline text-[#C8A875]/40"
+        aria-hidden="true"
+      >
+        ·
+      </span>
 
       <a
         href="mailto:info@thredvision.com"
