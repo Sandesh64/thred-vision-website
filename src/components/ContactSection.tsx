@@ -705,21 +705,23 @@ Inquiry submitted via THRED VISION Web Portal (Ganjimutt, Karnataka Facility)`;
                       <span className="text-[11px] font-mono uppercase tracking-wider text-[#C8A875] font-semibold block mb-1">
                         Corporate Inquiries
                       </span>
-                      <div className="mt-1 font-mono text-xs sm:text-sm">
-                        <a
-                          href="mailto:info@thredvision.com"
-                          className="inline-flex items-center text-[#F4F0E6]/90 hover:text-[#C8A875] transition-colors text-xs sm:text-sm text-[#C8A875] py-1 min-h-[44px] sm:min-h-0"
-                        >
-                          info@thredvision.com
-                        </a>
-                        <span className="hidden sm:inline text-[#C8A875]/40" aria-hidden="true">·</span>
-                          <a
-                            href="tel:+918105334689"
-                            className="inline-flex items-center text-[#F4F0E6]/90 hover:text-[#C8A875] transition-colors py-1 min-h-[44px] sm:min-h-0"
-                          >
-                            +91 8105334689
-                          </a>
-                      </div>
+                      
+<div className="mt-1 flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 font-mono text-xs sm:text-sm">
+  <a
+    href="mailto:info@thredvision.com"
+    className="inline-flex items-center text-[#C8A875] hover:text-[#F4F0E6] transition-colors py-1 min-h-[44px] sm:min-h-0"
+  >
+    info@thredvision.com
+  </a>
+
+  <a
+    href="tel:+918105334689"
+    className="inline-flex items-center text-[#F4F0E6]/90 hover:text-[#C8A875] transition-colors py-1 min-h-[44px] sm:min-h-0"
+  >
+    +91 8105334689
+  </a>
+</div>
+
                     </div>
                   </div>
                 </div>
