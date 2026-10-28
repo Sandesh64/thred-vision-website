@@ -708,7 +708,7 @@ Inquiry submitted via THRED VISION Web Portal (Ganjimutt, Karnataka Facility)`;
                       <div className="mt-1 font-mono text-xs sm:text-sm">
                         <a
                           href="mailto:info@thredvision.com"
-                          className="inline-flex items-center hover:text-[#C8A875] transition-colors text-xs sm:text-sm text-[#C8A875] py-1 min-h-[44px] sm:min-h-0"
+                          className="inline-flex items-center text-[#F4F0E6]/90 hover:text-[#C8A875] transition-colors text-xs sm:text-sm text-[#C8A875] py-1 min-h-[44px] sm:min-h-0"
                         >
                           info@thredvision.com
                         </a>
