@@ -705,7 +705,11 @@ Inquiry submitted via THRED VISION Web Portal (Ganjimutt, Karnataka Facility)`;
                       <span className="text-[11px] font-mono uppercase tracking-wider text-[#C8A875] font-semibold block mb-1">
                         Corporate Inquiries
                       </span>
-                      <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 pt-0.5">
+                      <div className="space-y-2 font-mono text-xs sm:text-sm text-[#F4F0E6]">
+                        <span className="font-bold text-sm sm:text-base font-sans text-[#F4F0E6] block">
+                          Dinesh Chandra
+                        </span>
+                        <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 pt-0.5">
                           <a
                             href="tel:+919980546369"
                             className="inline-flex items-center text-[#F4F0E6]/90 hover:text-[#C8A875] transition-colors py-1 min-h-[44px] sm:min-h-0"
@@ -720,9 +724,8 @@ Inquiry submitted via THRED VISION Web Portal (Ganjimutt, Karnataka Facility)`;
                             dinesh@thredvision.com
                           </a>
                         </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
               </TiltCard>
             </RevealOnScroll>
 
