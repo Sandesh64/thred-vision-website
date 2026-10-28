@@ -707,21 +707,21 @@ Inquiry submitted via THRED VISION Web Portal (Ganjimutt, Karnataka Facility)`;
                       </span>
                       <div className="space-y-2 font-mono text-xs sm:text-sm text-[#F4F0E6]">
                         <span className="font-bold text-sm sm:text-base font-sans text-[#F4F0E6] block">
-                          Dinesh Chandra
+                          Thred Vision
                         </span>
                         <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 pt-0.5">
                           <a
-                            href="tel:+919980546369"
+                            href="tel:+918105334689"
                             className="inline-flex items-center text-[#F4F0E6]/90 hover:text-[#C8A875] transition-colors py-1 min-h-[44px] sm:min-h-0"
                           >
-                            +91 9980546369
+                            +91 8105334689
                           </a>
                           <span className="hidden sm:inline text-[#C8A875]/40" aria-hidden="true">·</span>
                           <a
-                            href="mailto:dinesh@thredvision.com"
+                            href="mailto:info@thredvision.com"
                             className="inline-flex items-center text-[#F4F0E6]/90 hover:text-[#C8A875] transition-colors py-1 min-h-[44px] sm:min-h-0"
                           >
-                            dinesh@thredvision.com
+                            info@thredvision.com
                           </a>
                         </div>
                       </div>
