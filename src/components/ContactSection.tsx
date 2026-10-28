@@ -655,19 +655,19 @@ Inquiry submitted via THRED VISION Web Portal (Ganjimutt, Karnataka Facility)`;
                         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
                           <span className="font-bold text-sm sm:text-base font-sans text-[#F4F0E6]">Subhash N</span>
                           <a
-                            href="tel:+916362815418"
+                            href="mailto:info@thredvision.com"
                             className="inline-flex items-center text-[#F4F0E6]/90 hover:text-[#C8A875] transition-colors py-1 min-h-[44px] sm:min-h-0"
                           >
-                            +91 6362815418
+                            subhash@thredvision.com
                           </a>
                         </div>
                         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
                           <span className="font-bold text-sm sm:text-base font-sans text-[#F4F0E6]">Sandesh N</span>
                           <a
-                            href="tel:+916361761033"
+                            href="mailto:sandesh@thredvision.com"
                             className="inline-flex items-center text-[#F4F0E6]/90 hover:text-[#C8A875] transition-colors py-1 min-h-[44px] sm:min-h-0"
                           >
-                            +91 6361761033
+                            sandesh@thredvision.com
                           </a>
                         </div>
                       </div>
@@ -691,10 +691,10 @@ Inquiry submitted via THRED VISION Web Portal (Ganjimutt, Karnataka Facility)`;
                           </a>
                           <span className="hidden sm:inline text-[#C8A875]/40" aria-hidden="true">·</span>
                           <a
-                            href="tel:+918105334689"
+                            href="mailto:dinesh@thredvision.com"
                             className="inline-flex items-center text-[#F4F0E6]/90 hover:text-[#C8A875] transition-colors py-1 min-h-[44px] sm:min-h-0"
                           >
-                            +91 8105334689
+                            dinesh@thredvision.com
                           </a>
                         </div>
                       </div>
@@ -712,6 +712,13 @@ Inquiry submitted via THRED VISION Web Portal (Ganjimutt, Karnataka Facility)`;
                         >
                           info@thredvision.com
                         </a>
+                        <span className="hidden sm:inline text-[#C8A875]/40" aria-hidden="true">·</span>
+                          <a
+                            href="tel:+918105334689"
+                            className="inline-flex items-center text-[#F4F0E6]/90 hover:text-[#C8A875] transition-colors py-1 min-h-[44px] sm:min-h-0"
+                          >
+                            +91 8105334689
+                          </a>
                       </div>
                     </div>
                   </div>
