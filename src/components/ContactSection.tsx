@@ -724,6 +724,7 @@ Inquiry submitted via THRED VISION Web Portal (Ganjimutt, Karnataka Facility)`;
                             info@thredvision.com
                           </a>
                         </div>
+                        </div>
                       </div>
                     </div>
               </TiltCard>
