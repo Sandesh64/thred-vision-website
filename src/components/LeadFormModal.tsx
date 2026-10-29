@@ -602,23 +602,23 @@ Generated via THRED VISION Interactive Lead Portal (Ganjimutt, Karnataka Facilit
                 <span className="font-semibold text-[#C8A875]">Immediate Assistance:</span>
                 <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[#F4F0E6] font-mono text-xs">
                   <div className="flex items-center gap-1.5">
-                    <span className="text-[#C8A875]">MD:</span>
-                    <a href="tel:+916362815418" className="hover:text-[#C8A875] underline py-1 min-h-[44px] inline-flex items-center">
-                      +91 6362815418 (Subhash N)
-                    </a>
-                    <span>·</span>
-                    <a href="tel:+916361761033" className="hover:text-[#C8A875] underline py-1 min-h-[44px] inline-flex items-center">
-                      +91 6361761033 (Sandesh N)
-                    </a>
-                  </div>
-                  <div className="flex items-center gap-1.5">
-                    <span className="text-[#C8A875]">GM:</span>
-                    <a href="tel:+919980546369" className="hover:text-[#C8A875] underline py-1 min-h-[44px] inline-flex items-center">
+                    <span className="text-[#C8A875]">General Manager:</span>
+                    <a href="tel:+919980546369" className="hover:text-[#C8A875] py-1 min-h-[44px] inline-flex items-center">
                       +91 9980546369
                     </a>
                     <span>·</span>
-                    <a href="tel:+918105334689" className="hover:text-[#C8A875] underline py-1 min-h-[44px] inline-flex items-center">
-                      +91 8105334689 (Dinesh Chandra)
+                    <a href="mailto:dinesh@thredvision.com" className="hover:text-[#C8A875] py-1 min-h-[44px] inline-flex items-center">
+                      dinesh@thredvision.com
+                    </a>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <span className="text-[#C8A875]">Corporate Contact:</span>
+                    <a href="tel:+918105334689" className="hover:text-[#C8A875] py-1 min-h-[44px] inline-flex items-center">
+                      +91 8105334689
+                    </a>
+                    <span>·</span>
+                    <a href="mailto:info@thredvision.com" className="hover:text-[#C8A875] py-1 min-h-[44px] inline-flex items-center">
+                      info@thredvision.com
                     </a>
                   </div>
                 </div>
