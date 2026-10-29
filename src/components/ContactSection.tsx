@@ -701,22 +701,31 @@ Inquiry submitted via THRED VISION Web Portal (Ganjimutt, Karnataka Facility)`;
                     </div>
 
                     {/* Corporate Inquiries */}
+                    {/* Corporate Inquiries */}
                     <div className="pt-4">
                       <span className="text-[11px] font-mono uppercase tracking-wider text-[#C8A875] font-semibold block mb-1">
                         Corporate Inquiries
-                      </span><div className="mt-1 font-mono text-xs sm:text-sm">
-                        <a
-                          href="tel:+918105334689"
-                          className="inline-flex items-center text-[#F4F0E6]/90 hover:text-[#C8A875] transition-colors text-xs sm:text-sm text-[#C8A875] py-1 min-h-[44px] sm:min-h-0"
-                        >
-                          +91 8105334689
-                        </a>
-                        <a
+                      </span>
+                      <div className="space-y-2 font-mono text-xs sm:text-sm text-[#F4F0E6]">
+                        <span className="font-bold text-sm sm:text-base font-sans block">
+                        <span className="text-white">THRED</span>{" "}
+                        <span className="text-[#E53935]">VISION</span>
+                        </span>
+                        <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 pt-0.5">
+                          <a
+                            href="tel:+918105334689"
+                            className="inline-flex items-center text-[#F4F0E6]/90 hover:text-[#C8A875] transition-colors py-1 min-h-[44px] sm:min-h-0"
+                          >
+                            +91 8105334689
+                          </a>
+                          <span className="hidden sm:inline text-[#C8A875]/40" aria-hidden="true">·</span>
+                          <a
                             href="mailto:info@thredvision.com"
                             className="inline-flex items-center text-[#F4F0E6]/90 hover:text-[#C8A875] transition-colors py-1 min-h-[44px] sm:min-h-0"
                           >
                             info@thredvision.com
                           </a>
+                        </div>
                       </div>
                     </div>
                   </div>
