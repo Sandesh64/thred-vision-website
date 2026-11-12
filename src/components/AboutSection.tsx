@@ -99,7 +99,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
               <div className="flex items-center gap-2 text-xs sm:text-sm font-semibold tracking-[0.2em] text-[#103C30] uppercase">
                 <span>ABOUT THRED VISION</span>
                 <span aria-hidden="true" className="text-[#C8A875]">·</span>
-                <span>GANJIMUTT, KARNATAKA</span>
+                <span>GANJIMATTA, KARNATAKA</span>
               </div>
             </div>
 
